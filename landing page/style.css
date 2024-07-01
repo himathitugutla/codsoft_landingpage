@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header{
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.top_row,.top_left,.top_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_row{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.bottom_row input{
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.top_row{
+    gap: 30px;
+    
+}
+
+.top_left,.top_right{
+    width: 50%;
+}
+
+.top_left div,.top_right div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.sub_title{
+    letter-spacing: 5px;
+}
+
+.email_type,.call{
+    font-size: 25px;
+}
+
+.email_addr,.number{
+    opacity: 0.5;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.btn button, button{
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius:5px;
+    border: 0;
+    font-size: 15px;
+}
+
+button:hover{
+    filter:brightness(150%);
+    cursor:pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    color: whitesmoke;
+    
+    padding-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+ul li:hover{
+    filter:brightness(150%);
+    color: red;
+    cursor: pointer;
+}
+
+/* Main */ 
+
+main{
+    
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url('./image\ of\ landing.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.container{
+
+    width:80%;
+    margin: 0 auto;
+
+}
+
+main div{
+    
+    width: 45%;
+}
+
+main div h1{
+    font-size: 50px;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px black;
+}
+
+main div p{
+    color: rgb(3, 1, 9);
+    letter-spacing: 3px;
+    text-shadow: 2px 2px white;
+    font-size: 20px;
+
+}
+
+/* section */
+
+section{
+    display: flex;
+    height: 100px;
+
+}
+
+section div{
+    width: 25%;
+
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+
